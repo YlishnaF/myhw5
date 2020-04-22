@@ -8,7 +8,7 @@ public class Main {
         persArray[4] = new Person("Жданов Михаил Петрович", "охранник", "dsfrg@dgr.ru", "+79345674437", 15000, 45);
 
         for(Person person: persArray){
-            if(person.age>40){
+            if(person.getAge()>40){
                 person.info();
             }
 
