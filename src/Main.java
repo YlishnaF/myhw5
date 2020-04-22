@@ -7,7 +7,12 @@ public class Main {
         persArray[3] = new Person("Змеева Галина Михайловна", "уборщица", "hdghrg@ksr.ru", "+79129856512", 15000, 58);
         persArray[4] = new Person("Жданов Михаил Петрович", "охранник", "dsfrg@dgr.ru", "+79345674437", 15000, 45);
 
+        for(Person person: persArray){
+            if(person.age>40){
+                person.info();
+            }
 
+        }
 
     }
 
