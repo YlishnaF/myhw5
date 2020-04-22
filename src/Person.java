@@ -1,9 +1,9 @@
 public class Person {
-    String name;
-    String position;
-    String email;
-    String telephone;
-    int salary;
+    private String name;
+    private String position;
+    private String email;
+    private String telephone;
+    private int salary;
     int age;
 
     public Person( String name, String position, String email, String telephone, int salary, int age ) {
@@ -16,6 +16,8 @@ public class Person {
     }
 
     public void info(){
-        System.out.printf("Person %s %s %s %s %d %d", name, position,email, telephone, salary, age);
+        System.out.printf("Person %s %s %s %s %d %d %n", name, position,email, telephone, salary, age);
     }
+
+
 }
